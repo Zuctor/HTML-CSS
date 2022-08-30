@@ -65,26 +65,33 @@ section.imagem
 {
     background-color: rgb(92, 92, 92);
     color: white;
+    text-shadow: 1px 1px 0px black;
 }
 section#img1
 {
     background-image: url("imagens/background001.jpg");
-    background-size: 100% 100%;
+    background-size: cover;
     background-attachment: fixed;
-    box-shadow: 5px 5px 15px 0px rgb(0 0 0) inset;
+    background-position: center center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.459) inset;
 }
 section#img2
 {
     background-image: url("imagens/background002.jpg");
-    background-size: 100% 100%;
+    background-size: cover;
     background-attachment: fixed;
-    box-shadow: 5px 5px 15px 0px rgb(0 0 0) inset;
+    background-position: center center;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.600) inset;
 }
 section.imagem > p
 {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.527);
+    background-color: hsla(0, 0%, 0%, 0.600);
     padding: 1.5vw;
+}
+p.normal
+{
+    padding-bottom: 3em;
 }
 
 
