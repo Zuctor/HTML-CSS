@@ -30,7 +30,9 @@
             font-size: 30px;
             font-weight: bold;
             padding: 10px;
-            border: 1px solid black;
+            border-top: 1px solid black;
+            border-right: 1px solid black;
+            border-left: 1px solid black;
         }
         td, th
         {
@@ -48,7 +50,11 @@
         }
         tbody
         {
-            background-color: white;
+            background-color:white;
+        }
+        tbody > tr:nth-child(odd)
+        {
+            background-color: lightgray;
         }
         td.num
         {
